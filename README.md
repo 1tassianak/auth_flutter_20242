@@ -2,6 +2,39 @@
 
 ### App exemplo de autenticação com Flutter e Firebase, com o login persistente
 
+## Listagem de funções por telas
+
+### Tela de login
+
+- Faz conexão com o FirebaseAuth
+- Função Login:
+  - Tenta autenticar no banco através do UserCredential e redireciona para a tela Home
+  - Caso não der certo, faz o tratamento dos seguintes erros:
+    - 'user-not-found': Usuário não encontrado
+    - 'wrong-password': Senha incorreta
+    - 'invalid-email': E-mail inválido
+    - 'user-disabled': Conta desativada
+    - 'too-many-requests':Muitas tentativas de login 
+    - default: para outros erros inesperados
+
+- Função registrar:
+  - Tenta registrar, o e-mail e senha digitados, no banco através do UserCredential, exibe uma mensagem de sucesso e redireciona para a tela Login
+  - Caso não der certo, faz o tratamento dos seguintes erros:
+    - 'email-already-in-use': Este e-mail já está em uso
+    - 'invalid-email': O e-mail é inválido
+    - 'operation-not-allowed': O registro com e-mail e senha foi desativado
+    - 'weak-password':A senha é muito fraca
+    - default: para outros erros inesperados
+
+- Funções para criação da tela e exibição dos inputs de e-mail e senha, e dos botões de login e registro
+
+### Tela Home
+
+- Exibe um texto informando que está na tela Home
+- Exibe um botão com a função de Logout:
+  - Tenta fazer logout, avisa o usuário que desconectou e redireciona para a tela de Login
+  - Caso contrário, exibe um erro imprimindo a mensagem informativa.
+
 # Gerando um APK no Flutter
 
 Este guia detalha os passos necessários para gerar um APK de um aplicativo Flutter.
