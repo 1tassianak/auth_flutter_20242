@@ -35,6 +35,31 @@
   - Tenta fazer logout, avisa o usuário que desconectou e redireciona para a tela de Login
   - Caso contrário, exibe um erro imprimindo a mensagem informativa.
 
+## Listagem de dependências utilizadas
+
+- cloud_firestore: ^5.5.0
+- firebase_core: ^3.8.0
+- firebase_auth: ^5.3.3
+
+## Instruções para configuração/importação do projeto
+
+### Versões utilizadas do Flutter e Dart
+
+- Flutter 3.24.4 
+- Dart 3.5.4
+
+### Versão mínima do SDK
+
+- minSdk = 23
+
+### Importando o projeto
+
+- Baixe o código-fonte do projeto
+- Abra o Android Studio e abra o projeto baixado
+- Vá em Settings e verifique se em "Languages e Frameworks > Flutter" a configuração Flutter SDK path contém o caminho correto para acessar o SDK que está no seu computador
+- Abra o arquivo "pubspec.yaml" e clique em "Pub get" para baixar as dependências do projeto
+- Inicie um emulador e execute o projeto
+- Para testar, digite um e-mail e senha e clique em "Registrar", depois faça o login com a conta recém criada.
 
 #
 
