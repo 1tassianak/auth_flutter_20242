@@ -35,6 +35,9 @@
   - Tenta fazer logout, avisa o usuário que desconectou e redireciona para a tela de Login
   - Caso contrário, exibe um erro imprimindo a mensagem informativa.
 
+
+#
+
 # Gerando um APK no Flutter
 
 Este guia detalha os passos necessários para gerar um APK de um aplicativo Flutter.
