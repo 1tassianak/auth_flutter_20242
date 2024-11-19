@@ -1,3 +1,5 @@
+# Autenticação
+
 ### App exemplo de autenticação com Flutter e Firebase, com o login persistente
 
 # Gerando um APK no Flutter
