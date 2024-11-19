@@ -55,7 +55,7 @@
 ### Importando o projeto
 
 - Baixe o código-fonte do projeto
-- Abra o Android Studio e abra o projeto baixado
+- No Android Studio, abra o projeto baixado
 - Vá em Settings e verifique se em "Languages e Frameworks > Flutter" a configuração Flutter SDK path contém o caminho correto para acessar o SDK que está no seu computador
 - Abra o arquivo "pubspec.yaml" e clique em "Pub get" para baixar as dependências do projeto
 - Inicie um emulador e execute o projeto
