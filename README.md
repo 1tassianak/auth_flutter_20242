@@ -56,7 +56,7 @@
 
 - Baixe o código-fonte do projeto
 - No Android Studio, abra o projeto baixado
-- Vá em Settings e verifique se em "Languages e Frameworks > Flutter" a configuração Flutter SDK path contém o caminho correto para acessar o SDK que está no seu computador
+- Vá em Settings e verifique se em "Languages e Frameworks > Flutter" a configuração "Flutter SDK path" contém o caminho correto para acessar o SDK que está no seu computador
 - Abra o arquivo "pubspec.yaml" e clique em "Pub get" para baixar as dependências do projeto
 - Inicie um emulador e execute o projeto
 - Para testar, digite um e-mail e senha e clique em "Registrar", depois faça o login com a conta recém criada.
